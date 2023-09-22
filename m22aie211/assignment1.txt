@@ -1,0 +1,22 @@
+conda env list -- get list of conda environments.
+conda activate conda_env
+conda list -- list down number of libraries
+
+sudo systemctl status mongod -- Status
+sudo systemctl start mongod -- Start
+mongo --host 34.139.3.204 --port 27017
+
+curl http://34.23.28.225:5000/get_data
+
+
+
+curl -X POST -H "Content-Type: application/json" -d '{
+	"transaction_id": "1234567890",
+	"amount": 100.00,
+	"currency": "USD",
+	"payment_method": "credit_card",
+	"card_number": "1234-5678-9876-5432",
+	"expiry_date": "12/24",
+	"cvv": "123"
+}'
+http://34.23.28.225:5000/insert
