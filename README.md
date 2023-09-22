@@ -1,1 +1,0 @@
-# cloud_and_virtualisation
