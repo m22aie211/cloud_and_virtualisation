@@ -60,8 +60,8 @@ docker ps
 # Stopping the Docker process  
 docker stop <CONTAINER ID>  
 
-# Author
-Author Name: Krupamay ghosal
-GitHub: https://github.com/m22aie211/cloud_and_virtualisation.git
-Email: m22aie211@iitj.ac.in
+# Author  
+Author Name: Krupamay ghosal  
+GitHub: https://github.com/m22aie211/cloud_and_virtualisation.git  
+Email: m22aie211@iitj.ac.in  
 
