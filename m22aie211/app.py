@@ -29,7 +29,7 @@ def insert_data():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
+# get data from DB
 @app.route('/get_data', methods=['GET'])
 def get_data():
     try:
@@ -37,7 +37,6 @@ def get_data():
         data_list = [doc for doc in data_cursor]
 
         if data_list:
-            # Serialize the list of dictionaries to JSON
             json_data = json.dumps(data_list, default=str)
             return json_data, 200
         else:
